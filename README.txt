@@ -6,27 +6,67 @@ Um aplicativo Android desenvolvido em Kotlin com o objetivo de promover o conhec
 
 O Quiz das ODS é um aplicativo educativo que permite aos usuários testar seus conhecimentos sobre sustentabilidade, meio ambiente, educação, saúde, igualdade social e outros temas relacionados aos Objetivos de Desenvolvimento Sustentável.
 
-O aplicativo organiza as perguntas em categorias correspondentes às 17 ODS e oferece uma experiência interativa de aprendizagem.
+O aplicativo apresenta as 17 ODS em categorias individuais, disponibilizando quizzes de múltipla escolha para tornar o aprendizado mais dinâmico e interativo.
 
 ## ✨ Funcionalidades
 
-- Organização das perguntas em 17 categorias de ODS.
+- Apresentação das 17 categorias correspondentes às ODS.
+- Consulta de informações e descrições sobre cada objetivo.
 - Carregamento dinâmico das perguntas utilizando Firebase Realtime Database.
 - Questões de múltipla escolha com quatro alternativas.
 - Verificação de respostas e cálculo de pontuação.
-- Cronômetro para realização dos quizzes.
-- Acompanhamento do progresso durante as partidas.
-- Armazenamento local de informações utilizando SharedPreferences.
+- Cronômetro para controlar o tempo de cada quiz.
+- Sistema de dicas para identificar a ODS selecionada.
+- Indicador de progresso durante as partidas.
+- Armazenamento local das pontuações utilizando SharedPreferences.
 
 ## 🛠️ Tecnologias utilizadas
 
 - **Kotlin:** linguagem de programação utilizada no desenvolvimento.
 - **Android Studio:** ambiente de desenvolvimento.
-- **Firebase Realtime Database:** armazenamento e consulta das perguntas e informações das ODS.
+- **Firebase Realtime Database:** armazenamento e consulta das perguntas e informações dos quizzes.
 - **XML:** construção das interfaces do aplicativo.
-- **RecyclerView:** apresentação das listas de categorias e perguntas.
 - **ViewBinding:** acesso aos componentes das interfaces.
+- **RecyclerView:** apresentação dinâmica das listas de categorias.
 - **Gradle:** gerenciamento de dependências e compilação.
+
+### Bibliotecas e dependências
+
+- AndroidX Core KTX
+- AndroidX AppCompat
+- Material Components
+- AndroidX Activity
+- ConstraintLayout
+- Firebase Realtime Database
+- JUnit
+- Espresso
+
+## ⚙️ Pré-requisitos
+
+Para executar o projeto, é necessário ter:
+
+- Android Studio instalado.
+- Android SDK configurado (compileSdk 36).
+- JDK 17 ou compatível com a versão do Android Gradle Plugin utilizada.
+- Conexão com a internet para sincronização do Gradle e acesso ao Firebase.
+
+## 🚀 Como executar
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/SEU-USUARIO/quiz-das-ods.git
+   ```
+
+2. Abra a pasta do projeto no Android Studio.
+
+3. Aguarde a sincronização do Gradle e o download das dependências.
+
+4. Verifique a configuração do Firebase Realtime Database e do arquivo `google-services.json`.
+
+5. Configure um emulador Android ou conecte um dispositivo físico.
+
+6. Execute o aplicativo pelo botão **Run** do Android Studio.
 
 ## 🌱 Objetivos de Desenvolvimento Sustentável
 
@@ -53,17 +93,25 @@ O aplicativo aborda os 17 objetivos:
 ## 📸 Screenshots
 
 ### Tela inicial
-![Tela inicial](screenshots/telainicial.png)
+
+![Tela inicial](screenshots/paginainicial.jpg)
 
 ### Categorias das ODS
-![Categorias](screenshots/menuods.png)
 
-### Quiz
-![Quiz](screenshots/alternativasods.png)
+![Categorias das ODS](screenshots/menuods.jpg)
 
-### Sobre as Ods
-![Sobre](screenshots/lermais.png)
+### Perguntas do quiz
+
+![Perguntas do quiz](screenshots/alternativasods.jpg)
+
+### Informações sobre as ODS
+
+![Informações sobre as ODS](screenshots/lermais.jpg)
+
+## 🎯 Finalidade
+
+O projeto tem como finalidade incentivar o conhecimento sobre os Objetivos de Desenvolvimento Sustentável, utilizando a tecnologia como ferramenta de educação e conscientização social e ambiental.
 
 ---
 
-**Projeto desenvolvido por Davi Gregnanim Lepera.**
+**Projeto desenvolvido por Davi Lepera.**
