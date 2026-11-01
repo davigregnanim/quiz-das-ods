@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity">
+
+    <!-- card -->
+    <LinearLayout
+        android:id="@+id/mainCard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_card_white"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="24dp"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintWidth_percent="0.88"
+        app:layout_constraintHeight_percent="0.78"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- espaço superior -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"/>
+
+        <!-- imagem -->
+        <ImageView
+            android:id="@+id/main_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:src="@drawable/main_image"
+            android:scaleType="fitCenter"
+            android:elevation="6dp"
+            android:clipToOutline="true"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"/>
+
+
+        <!-- espaço entre imagem e texto -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.03"/>
+
+
+        <!-- titulo -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ DAS ODS"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/blue"
+            android:shadowColor="#33000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- espaço entre título e subtítulo -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02"/>
+
+        <!-- subtitulo -->
+        <TextView
+            android:id="@+id/subtitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descubra o quanto você sabe sobre os Objetivos de Desenvolvimento Sustentável!"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#666666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- espaço entre subtítulo e botão principal -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"/>
+
+        <!-- botao começar -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_jogar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COMEÇAR O QUIZ"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:background="@drawable/btn_outline"
+            android:paddingVertical="14dp"
+            android:layout_marginBottom="18dp"
+            android:backgroundTint="@null" />
+
+
+        <!-- botao sobre as ods -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_saber_mais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SOBRE AS ODS"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:background="@drawable/btn_outline"
+            android:paddingVertical="14dp"
+            android:backgroundTint="@null" />
+
+        <!-- espaço inferior -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

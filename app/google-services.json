@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697354823127",
+    "project_id": "tccquizonline",
+    "storage_bucket": "tccquizonline.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697354823127:android:3b45c0bf46714b8dec9792",
+        "android_client_info": {
+          "package_name": "com.example.quizonline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLhzLA-KF5iof2QuX0sGKkbAmFCuwtkRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

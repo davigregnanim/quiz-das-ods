@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base escuro -->
+    <style name="Base.Theme.QuizOnline" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Mantém o mesmo laranja -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryContainer">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Fundo e texto fixos -->
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <!-- Usa AppCompat pra manter seus botões personalizados -->
+        <item name="materialButtonStyle">@style/Widget.AppCompat.Button</item>
+
+        <!-- Status bar fixa em laranja -->
+        <item name="android:statusBarColor">@color/orange</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base claro -->
+    <style name="Base.Theme.QuizOnline" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Cor primária fixa -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryContainer">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Fundo e texto fixos -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Usa estilo AppCompat pra respeitar seus drawables -->
+        <item name="materialButtonStyle">@style/Widget.AppCompat.Button</item>
+
+        <!-- Status bar fixa em laranja -->
+        <item name="android:statusBarColor">@color/orange</item>
+    </style>
+
+    <style name="Theme.QuizOnline" parent="Base.Theme.QuizOnline" />
+</resources>

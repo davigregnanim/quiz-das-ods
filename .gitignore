@@ -1,0 +1,47 @@
+
+# Android Studio
+*.iml
+.idea/
+.gradle/
+
+# Gradle
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android SDK
+local.properties
+
+# Build nativo
+.externalNativeBuild/
+.cxx/
+captures/
+
+# APK e App Bundle gerados
+*.apk
+*.aab
+
+# Logs
+*.log
+
+# Kotlin
+.kotlin/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Assinaturas e credenciais privadas
+*.jks
+*.keystore
+key.properties
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
